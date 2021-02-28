@@ -32,7 +32,7 @@ Testing functionality of Cart Checkout for authorized users
 * Target
 
 
-## Authors
+## Author
 
 * **Amira El-Bahrawy** - (https://www.linkedin.com/in/amiraelbahrawy99/)
 
