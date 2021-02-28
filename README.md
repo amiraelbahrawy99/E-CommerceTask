@@ -10,8 +10,8 @@ Testing functionality of Cart Checkout for authorized users
 
 ### Running the tests
 
-* ** testng.xml ** can be found in the root path of the project
-* ** Command Line ** mvn clean verify 
+* ( testng.xml ) can be found in the root path of the project
+* ( Command Line ) mvn clean verify 
 
 ## Built With
 
@@ -21,7 +21,7 @@ Testing functionality of Cart Checkout for authorized users
 * [TestNG] 
 * [POM] - Page Object Model
 * [BDD] - Behavior Driven Development
-* [cucumber maven reporting]
+* [Cucumber maven reporting]
 
 ## Project Architecture
 
