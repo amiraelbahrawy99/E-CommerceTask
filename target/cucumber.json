@@ -1,0 +1,194 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-28T17:51:44.633Z",
+        "before": [
+          {
+            "result": {
+              "duration": 11633268200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.E2ESteps.MainSetupForBrowserAndWebsite()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Order Checkout",
+        "description": "",
+        "id": "cart-checkout-functionality;order-checkout;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 800122400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.E2ESteps.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2480729600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on Authentication Page",
+            "match": {
+              "location": "StepDefinitions.E2ESteps.user_is_on_authentication_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7492933500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user fill required registeration data \"amiraelbahrawy@gmail.com\",\"Amira\" , \"El-Bahrawy\" , \"123456\" ,\"SW 8th Street\" , \"Miami\" ,\"Florida\" ,\"33129\" ,\"United States\" ,\"3057248697\" ,\"Tamiami Trail\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"amiraelbahrawy@gmail.com\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"Amira\"",
+                  "offset": 65
+                },
+                {
+                  "val": "\"El-Bahrawy\"",
+                  "offset": 75
+                },
+                {
+                  "val": "\"123456\"",
+                  "offset": 90
+                },
+                {
+                  "val": "\"SW 8th Street\"",
+                  "offset": 100
+                },
+                {
+                  "val": "\"Miami\"",
+                  "offset": 118
+                },
+                {
+                  "val": "\"Florida\"",
+                  "offset": 127
+                },
+                {
+                  "val": "\"33129\"",
+                  "offset": 138
+                },
+                {
+                  "val": "\"United States\"",
+                  "offset": 147
+                },
+                {
+                  "val": "\"3057248697\"",
+                  "offset": 164
+                },
+                {
+                  "val": "\"Tamiami Trail\"",
+                  "offset": 178
+                }
+              ],
+              "location": "StepDefinitions.E2ESteps.user_fill_required_registeration_data(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8649118100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user login with his registerd credentials \"amiraelbahrawy@gmail.com\",\"123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"amiraelbahrawy@gmail.com\"",
+                  "offset": 42
+                },
+                {
+                  "val": "\"123456\"",
+                  "offset": 69
+                }
+              ],
+              "location": "StepDefinitions.E2ESteps.user_login_with_his_registerd_credentials(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13509073300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user select \"Blouse\" to buy with specific criteria \"M\" and \"white\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Blouse\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"M\"",
+                  "offset": 51
+                },
+                {
+                  "val": "\"white\"",
+                  "offset": 59
+                }
+              ],
+              "location": "StepDefinitions.E2ESteps.user_select_to_buy_with_specific_criteria_and(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13538268700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user proceed to checkout with specific \"Pay by bank wire\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pay by bank wire\"",
+                  "offset": 39
+                }
+              ],
+              "location": "StepDefinitions.E2ESteps.user_proceed_to_checkout_with_specific(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4460827000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "order placed successfully and shown in order history Tab",
+            "match": {
+              "location": "StepDefinitions.E2ESteps.order_placed_successfully_and_shown_in_order_history_tab()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Cart checkout functionality",
+    "description": "  I want to check that authenticated user can checkout orders successfully",
+    "id": "cart-checkout-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/CartCheckoutScenario.feature",
+    "tags": []
+  }
+]

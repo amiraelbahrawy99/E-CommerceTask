@@ -1,0 +1,9 @@
+pages\BlousesPage.class
+pages\OrderPage.class
+pages\AuthenticationPage.class
+pages\HomePage.class
+StepDefinitions\E2ESteps.class
+Runner\TestRunner.class
+pages\RegisterPage.class
+pages\OrderHistoryPage.class
+pages\MyAccountPage.class
